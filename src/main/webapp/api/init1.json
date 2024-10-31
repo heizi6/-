@@ -1,0 +1,49 @@
+{
+  "menuInfo": {
+    "currency": {
+      "title": "常规管理",
+      "icon": "fa fa-address-book",
+      "child": [
+
+        {
+          "title": "用户管理",
+          "href": "../user/classAdminUser.action",
+          "icon": "fa fa-gears",
+          "target": "_self"
+        },
+        {
+          "title": "学生管理",
+          "href": "",
+          "icon": "fa fa-child",
+          "target": "_self",
+          "child": [
+            {
+              "title": "就业信息",
+              "href": "../student/classStudentList.action",
+              "icon": "fa fa-list-alt",
+              "target": "_self"
+            },
+            {
+              "title": "是否就业",
+              "href": "../student/getWorking.action",
+              "icon": "fa fa-align-left",
+              "target": "_self"
+            },
+            {
+              "title": "地点统计",
+              "href": "../student/getAddress.action",
+              "icon": "fa fa-align-left",
+              "target": "_self"
+            },
+            {
+              "title": "职业统计",
+              "href": "../student/getWork.action",
+              "icon": "fa fa-align-left",
+              "target": "_self"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}
